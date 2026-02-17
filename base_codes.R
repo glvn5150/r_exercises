@@ -1,4 +1,4 @@
-#simulating data
+#---simulating data---
 
 set.seed(123)
 n <- 100

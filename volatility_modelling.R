@@ -1,6 +1,7 @@
 library(quantmod)
 library(tseries)
 
+#----import data set----
 getSymbols("^JKSE", src = "yahoo")
 stocks <- JKSE
 head(JKSE)
